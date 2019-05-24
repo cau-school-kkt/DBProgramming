@@ -1,0 +1,13 @@
+create table Interest( user_id varchar(31) NOT NULL, regist_num int NOT NULL, contract_type varchar(10) NOT NULL, building_type varchar(20) NOT NULL, primary key(user_id, regist_num), foreign key(user_id) references user(user_id), foreign key(regist_num) references Room(regist_number));
+
+
+
+create table Room( regist_number int NOT NULL, city_addr varchar(31) NOT NULL, district_addr varchar(31) NOT NULL, dong_addr varchar(31) NOT NULL, sub_etc_addr varchar(51) NOT NULL, broker_id varchar(31) NOT NULL, owner_user varchar(31) NOT NULL, room_structure varchar(31) NOT NULL, main_picture_url varchar(100) NOT NULL, date varchar(31) NOT NULL, primary key(regist_number));
+
+
+
+create table broker( broker_id varchar(31) NOT NULL, broker_pwd varchar(31) NOT NULL, name varchar(31) NOT NULL, telephone varchar(31) NOT NULL, bln varchar(31) NOT NULL, trade_name varchar(31) NOT NULL, district varchar(31) NOT NULL, primary key(broker_id));
+
+
+
+create table user( user_id varchar(31) NOT NULL, user_pwd varchar(31) NOT NULL, name varchar(31) NOT NULL, telephone varchar(31) NOT NULL, primary key(user_id));

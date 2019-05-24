@@ -1,0 +1,21 @@
+PATH=$PATH:$JAVA_HOME/bin 
+export PATH 
+CLASSPATH=$CLASSPATH:$JAVA_HOME/lib/tools.jar:$JAVA_HOME/lib/mysql-connector-java-5.1.45.jar 
+export CLASSPATH
+
+
+리눅스에서 자바 컴파일 & 실행
+https://freestrokes.tistory.com/62
+https://blog.naver.com/PostView.nhn?blogId=opusk&logNo=220985259485
+
+
+JDBC 사용 환경 구축 및 사용
+https://whitememo.tistory.com/201
+
+
+UUID 사용
+https://linuxism.ustd.ip.or.kr/928
+https://stackoverflow.com/questions/9788494/mysql-generated-uid
+UUID();
+set @test_var = UUID();
+insert into test values(UUID());
