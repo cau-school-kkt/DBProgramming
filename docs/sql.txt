@@ -1,0 +1,14 @@
+select *
+from 월세매물
+where 등록번호=?
+
+select *
+from 방매물
+where 등록번호=?
+
+select *
+from 방매물상세
+where 등록번호=?
+
+insert into Interest
+values (?, ?, ?, ?)
