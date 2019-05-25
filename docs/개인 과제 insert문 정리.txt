@@ -1,0 +1,14 @@
+insert into Room values(uuid(), "서울시", "동작구", "흑성1동", "628", NULL, "kkt752", "분리형", "http://www.hanion.co.kr/news/photo/201705/5146_17620_2457.jpg", "20190523");
+
+
+
+insert into Room values(uuid(), "서울시", "동작구", "상도1동", "623", NULL, "kkt752", "오픈형", "http://www.petzzi.com/data/editor/1708/1a8ed722537c395fad0f202f2d1f6137_1502090435_8756.jpg", "20190523");
+
+
+
+insert into Room values(uuid(), "서울시", "강남구", "가로수1동", "600", NULL, "bluesalt1621", "분리형", "https://www.koreatimes.net/images/attach/428/933/885/001/0ccd3066e873623e889aefefdbddd149.jpg", "20190524");
+
+
+insert into Room values(uuid(), "서울시", "동대문구", "동대문1동", "601", NULL, "kkt1621", "복 층형", "https://blog.hmgjournal.com/images_n/contents/170719_cat01.png", "20190523");
+
+
