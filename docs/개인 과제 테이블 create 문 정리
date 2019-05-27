@@ -11,3 +11,5 @@ create table broker( broker_id varchar(31) NOT NULL, broker_pwd varchar(31) NOT 
 
 
 create table user( user_id varchar(31) NOT NULL, user_pwd varchar(31) NOT NULL, name varchar(31) NOT NULL, telephone varchar(31) NOT NULL, primary key(user_id));
+
+create table RegisteredSales( id varchar(31) NOT NULL, regist_number varchar(36) NOT NULL, contract_type varchar(31) NOT NULL, building_type varchar(31) NOT NULL, primary key(id, regist_number), foreign key(id) references User(user_id));
